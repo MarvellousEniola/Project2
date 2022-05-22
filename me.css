@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+    text-align: center;
+}
+
+.hire {
+    text-align: start;
+    color: #ff0000;
+    font-size: x-large;
+    padding: 20px;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace ;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer1 a {
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer1 a:hover {
+    border: 2px solid #fff;
+    color: rgb(93, 167, 231);
+    border-radius: 6px;
+    padding: 5px;
+}
+
+.head1 {
+    background-color: burlywood;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 40px;
+    line-height: 1.4;
+}
+
+.footer {
+    background-color: coral;
+}
+
+.images {
+    display: block;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.images a {
+    margin-top: 10px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+.copy {
+    text-align: end;
+    padding-right: 10px;
+}
